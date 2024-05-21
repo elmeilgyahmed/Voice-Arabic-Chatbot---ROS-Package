@@ -19,7 +19,7 @@ This ROS package enables the NOOR social robot to engage in conversations with u
 
 Navigate to the package directory:
 
-    cd NOOR_arabic_chatbot_ros
+    cd catkin_ws
 
 Install dependencies:
 
@@ -30,15 +30,18 @@ Install dependencies:
     catkin_make
 
 
-source <workspace_name>/devel/setup.bash
+Source the workspace :
+
+
+    source ~/catkin_ws/devel/setup.bash
 
 
 # Usage
 
-    Launch the chatbot node:
+    Launch the chatbot node and make your own launch file:
     Bash
-
-    roslaunch NOOR_arabic_chatbot_ros chatbot.launch
+    roscore
+    roslaunch Voice-Arabic-Chatbot---ROS-Package chatbot.launch
 
 
 The NOOR robot will now be ready to receive voice commands in Arabic and respond accordingly.
