@@ -13,35 +13,25 @@ This ROS package enables the NOOR social robot to engage in conversations with u
 # Installation:
 
     Clone the repository:
-    Bash
 
-    git clone https://github.com/your_username/NOOR_arabic_chatbot_ros.git
+    git clone https://github.com/elmeilgyahmed/Voice-Arabic-Chatbot---ROS-Package.git
 
-    Use code with caution.
 
 Navigate to the package directory:
-Bash
 
-cd NOOR_arabic_chatbot_ros
-
-Use code with caution.
+    cd NOOR_arabic_chatbot_ros
 
 Install dependencies:
-Bash
-        pip install -r requirements.txt  # Replace with your actual installation command if using a requirements file
 
+        pip install -r requirements.txt  
 
 # Build the ROS package:
-Bash
 
-catkin_make
+    catkin_make
 
-Source the workspace (replace <workspace_name> with your actual workspace name):
-Bash
 
 source <workspace_name>/devel/setup.bash
 
-Use code with caution.
 
 # Usage
 
@@ -50,9 +40,9 @@ Use code with caution.
 
     roslaunch NOOR_arabic_chatbot_ros chatbot.launch
 
-    Use code with caution.
 
-    The NOOR robot will now be ready to receive voice commands in Arabic and respond accordingly. The specific behavior may depend on the implementation of the chatbot logic within the ROS node.
+The NOOR robot will now be ready to receive voice commands in Arabic and respond accordingly.
+The specific behavior may depend on the implementation of the chatbot logic within the ROS node.
 
 Technical Details (Optional)
 
